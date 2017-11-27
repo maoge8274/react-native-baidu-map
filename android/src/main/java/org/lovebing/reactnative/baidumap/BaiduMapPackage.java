@@ -45,9 +45,4 @@ public class BaiduMapPackage implements ReactPackage {
                 baiduMapViewManager
         );
     }
-
-    @Override
-    public List<Class<? extends JavaScriptModule>> createJSModules() {
-        return Collections.emptyList();
-    }
 }
